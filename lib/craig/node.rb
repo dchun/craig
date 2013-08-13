@@ -30,7 +30,7 @@ module Craig
     module Location
       # @return [String]
       def location
-        node = dom.at_css(".itempn")
+        node = dom.at_css(".itempnr")
         return "" unless node
         text = node.text.gsub(/\s+/, " ").strip[1..-2].to_s
         text ? text.strip : text
