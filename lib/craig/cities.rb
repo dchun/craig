@@ -6,7 +6,6 @@
 
 module Craig
   CITIES = {
-    "los_angeles" => "losangeles",
     "birmingham" => "bham",
     "florence_muscle_shoals" => "shoals",
     "gadsden_anniston" => "gadsden",
